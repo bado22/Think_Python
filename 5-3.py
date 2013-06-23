@@ -7,6 +7,6 @@ def check_fermat(a, b, c, n):
 a = int(raw_input("What is a?\n"))
 b = int(raw_input("What is b?\n"))		
 c = int(raw_input("What is c?\n"))
-d = int(raw_input("What is d?\n"))
+n = int(raw_input("What is n?\n"))
 		
-check_fermat(a,b,c,d)
+check_fermat(a,b,c,n)
