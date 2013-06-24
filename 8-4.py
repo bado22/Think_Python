@@ -6,4 +6,4 @@ def find(word, letter, start):
 		index = index + 1
 	return -1
 
-print find('supercalifragialisticexpialidocious', 'l', 3)
+print find('supercalifragialisticexpialidocious', 'u', 0)

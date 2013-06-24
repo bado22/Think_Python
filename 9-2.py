@@ -11,11 +11,11 @@ def avoids(word, forbidden):
 	return True
 	
 def print_words_without_e(fin):
-	fin = open('words.txt')
+	fin = open(fin)
 	for line in fin:
 		word = line.strip()
 		if has_no_e(word):
 			print word
 	return True		
 
-print_words_without_e()
+print_words_without_e('words.txt')
