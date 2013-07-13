@@ -1,0 +1,7 @@
+def sumall(*args):
+	total = 0;
+	for arg in args:
+		total += arg
+	return total
+
+print sumall(1, 2, 3)
